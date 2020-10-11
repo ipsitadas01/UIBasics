@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_height="400dp"
+        android:layout_width="400dp">
+       <RelativeLayout
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:background="#ffffff"
+           android:id="@+id/firstbox"/>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/firstbox"
+            android:background="#0C0C0C"
+            android:id="@+id/secondbox"/>
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/secondbox"
+            android:background="#ffffff"
+            android:id="@+id/thirdbox"/>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/thirdbox"
+            android:background="#0C0C0C"
+            android:id="@+id/fourthbox"/>
+
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@id/firstbox"
+            android:id="@+id/fifthbox"
+            android:background="#0C0C0C"/>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/fifthbox"
+            android:layout_toEndOf="@id/secondbox"
+            android:id="@+id/sixthbox"
+            android:background="#ffffff"/>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/sixthbox"
+            android:layout_toEndOf="@id/thirdbox"
+            android:id="@+id/seventhbox"
+            android:background="#0C0C0C"/>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/seventhbox"
+            android:layout_toEndOf="@id/fourthbox"
+            android:id="@+id/eighthbox"
+            android:background="#ffffff"/>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@id/fifthbox"
+            android:id="@+id/ninthbox"
+            android:background="#ffffff" />
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@id/sixthbox"
+            android:layout_below="@id/ninthbox"
+            android:id="@+id/tenthbox"
+            android:background="#0C0C0C" />
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@id/seventhbox"
+            android:layout_below="@id/tenthbox"
+            android:id="@+id/eleventhbox"
+            android:background="#ffffff" />
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@id/eighthbox"
+            android:layout_below="@id/eleventhbox"
+            android:id="@+id/twelfthbox"
+            android:background="#0C0C0C" />
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@id/ninthbox"
+            android:id="@+id/thirteenthbox"
+            android:background="#0C0C0C" />
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@id/tenthbox"
+            android:layout_below="@id/thirteenthbox"
+            android:id="@+id/fourteenthbox"
+            android:background="#ffffff" />
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@id/eleventhbox"
+            android:layout_below="@id/fourteenthbox"
+            android:id="@+id/fifteenthbox"
+            android:background="#0C0C0C" />
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@id/twelfthbox"
+            android:layout_below="@id/fifteenthbox"
+            android:id="@+id/sixteenthbox"
+            android:background="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>
